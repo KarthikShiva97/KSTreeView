@@ -40,7 +40,7 @@ class HintView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupLayout()
-        backgroundColor = .clear
+        isUserInteractionEnabled = false
     }
     
     required init?(coder: NSCoder) {
